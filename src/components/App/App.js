@@ -4,7 +4,7 @@ import './App.css';
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import GuestList from "../GuestList/GuestList";
-// import DinnerSupplies from "../DinnerSupplies/DinnerSupplies";
+import DinnerSupplies from "../DinnerSupplies/DinnerSupplies";
 import GuestForm from "../GuestForm/GuestForm";
 
 function App() {
@@ -69,7 +69,7 @@ function App() {
         handleSubmit={handleSubmit}
       />
       <GuestList guestList={guestList} />
-      {/* <DinnerSupplies guestList={guestList} /> */}
+      <DinnerSupplies guestList={guestList} />
       <Footer />
     </div>
   );
