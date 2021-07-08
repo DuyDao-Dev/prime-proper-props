@@ -1,5 +1,5 @@
 
-function GuestForm (props) {
+function GuestForm ({handleSubmit}) {
     console.log(props);
   let handleSubmit = props.handleSubmit;
   let newGuestName = props.newGuestName;

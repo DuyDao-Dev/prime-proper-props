@@ -62,10 +62,6 @@ function App() {
       <h2>Party Leader</h2>
       {guestList[0] && <h3>{guestList[0].name}</h3>}
       <GuestForm
-        newGuestName={newGuestName}
-        setNewGuestName={setNewGuestName}
-        newGuestMeal={newGuestMeal}
-        setNewGuestMeal={setNewGuestMeal}
         handleSubmit={handleSubmit}
       />
       <GuestList guestList={guestList} />
